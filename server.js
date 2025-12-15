@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 3000
 app.use(express.json())
 
 app.get("/",(req,res)=>{
-    res.status(200).send("Health is passed ,Server is running")
+    res.status(200).send("Health is passed ,Server is running very well")
 })
 
 //routes
